@@ -6,6 +6,7 @@ spring:
 ---
 spring:
   profiles: dev
+  port: 8080
   application:
     name: microservicecloud-config-atguigu-dev
 
