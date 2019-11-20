@@ -1,7 +1,16 @@
-spring: 
+spring:
   profiles:
     active:
-	dev
+      dev
+    
 ---
-:wq!
+spring:
+  profile: dev
+  application:
+    name: microservicecloud-config-atguigu-dev
 
+---
+spring:
+  profile: test
+  application:
+    name: microservicecloud-config-atguigu-test
