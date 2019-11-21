@@ -4,6 +4,8 @@ spring:
      - dev
 
 ---
+server:
+  port: 8088
 spring:
   profiles: dev
   port: 8080
@@ -11,6 +13,8 @@ spring:
     name: application
 
 ---
+server:
+  port: 8089
 spring:
   profiles: test
   application:
